@@ -1,0 +1,5 @@
+#!/bin/sh
+
+LN=/usr/bin/ln
+
+exec ${LN} -s "$@"
